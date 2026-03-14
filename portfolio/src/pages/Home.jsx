@@ -124,7 +124,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(300px,1fr))', gap:'1.5rem' }}>
+          <div style={{ display:'flex', justifyContent:'center', gap:'1.5rem', flexWrap:'wrap'}}>
             {projects.map((p, i) => (
               <div key={i} className={`anim-up d${i + 2}`}
                 style={{
