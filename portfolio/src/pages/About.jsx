@@ -48,7 +48,7 @@ export default function About() {
               {[
                 "I'm a full-stack developer living in phnompenh. I love building things for the web — from sleek front-ends to robust back-end systems.",
                 "My journey in tech started when I'm in 3rd year of my college i've build full stack web application about quiz game. Since then, I've been dedicated to crafting digital experiences that are both beautiful and functional.",
-                "When I'm not coding, you can find me [your hobbies]. I'm always looking to learn new things and collaborate on exciting projects.",
+                "When I'm not coding, you can find me ( no you can't because i'm always at home xD). I'm always looking to learn new things and collaborate on exciting projects.",
               ].map((text, i) => (
                 <p key={i} style={{ fontFamily:'Outfit,sans-serif', fontWeight:300, fontSize:'1rem', color:'var(--green-mid)', lineHeight:1.8 }}>{text}</p>
               ))}
