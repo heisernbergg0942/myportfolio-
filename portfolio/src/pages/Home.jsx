@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 import TechStack from '../components/TechStack'
 
 // ── EDIT THESE ──────────────────────────────────────────────
-const PROFILE_IMAGE   = '/profilepicture.jpg'        // e.g. '/profile.jpg'
-const GITHUB_REPO_URL = 'https://github.com/YOUR_GITHUB_USERNAME'
+const PROFILE_IMAGE   = '/profilepicture.jpg'        
+const GITHUB_REPO_URL = 'https://github.com/heisernbergg0942'
 // ────────────────────────────────────────────────────────────
 
 const projects = [
@@ -64,7 +64,7 @@ export default function Home() {
               onMouseLeave={e=>{ e.currentTarget.style.background='var(--green-deep)'; e.currentTarget.style.transform='translateY(0)' }}>
                 Get in Touch
               </Link>
-              <a href="https://github.com/heisenbergg0942" target="_blank" rel="noopener noreferrer" style={{
+              <a href={GITHUB_REPO_URL} target="_blank" rel="noopener noreferrer" style={{
                 fontFamily:'Outfit,sans-serif', fontWeight:600, fontSize:'0.95rem',
                 color:'var(--green-deep)', background:'transparent',
                 padding:'0.85rem 2rem', borderRadius:999, textDecoration:'none',
