@@ -7,7 +7,10 @@ const GITHUB_REPO_URL = 'https://github.com/heisernbergg0942'
 // ────────────────────────────────────────────────────────────
 
 const projects = [
-  { title: 'Project One',   desc: 'A full-stack web app built with React and Laravel',           tags: ['React','Laravel','Mysql'], link: 'https://github.com/sengson-great/quizz-game-demo'},
+  { title: 'Project One',   desc: 'Quiz game:A full-stack web app  ( Teamwork project)',          
+     tags: ['React','Laravel','Mysql','tailwindcss'], link: 'https://github.com/sengson-great/quizz-game-demo'},
+  { title: 'Project Two',   desc: 'Car Rental System web app with Stripe payment ( solo project )',
+    tags: ['React','Laravel','Mysql','tailwindcss','Stripe'], link: 'https://github.com/heisernbergg0942/Car-Rental-System-'}
 
 ]
 
@@ -49,9 +52,7 @@ export default function Home() {
               <span style={{ color:'var(--green-soft)' }}>Tong.</span>
             </h1>
 
-            <p className="anim-up d3" style={{ fontFamily:'Outfit,sans-serif', fontWeight:300, fontSize:'1.1rem', color:'var(--green-mid)', maxWidth:480, lineHeight:1.7, marginBottom:'2.5rem' }}>
-              I craft clean, performant web applications — from pixel-perfect UIs to scalable back-end systems.
-            </p>
+        
 
             <div className="anim-up d4" style={{ display:'flex', gap:'1rem', flexWrap:'wrap' }}>
               <Link to="/contact" style={{

@@ -46,9 +46,9 @@ export default function About() {
             </h2>
             <div style={{ display:'flex', flexDirection:'column', gap:'1rem' }}>
               {[
-                "I'm a full-stack developer living in phnompenh. I love building things for the web — from sleek front-ends to robust back-end systems.",
-                "My journey in tech started when I'm in 3rd year of my college i've build full stack web application about quiz game. Since then, I've been dedicated to crafting digital experiences that are both beautiful and functional.",
-                "When I'm not coding, you can find me ( no you can't because i'm always at home xD). I'm always looking to learn new things and collaborate on exciting projects.",
+                "I'm a full-stack developer living in phnompenh. I love building things to slove problem that peoples need.",
+                "My journey in tech started when I'm in 2rd year of my college i've build full stack web application about quiz game. Since then, I've been dedicated to crafting digital experiences that are both beautiful and functional.",
+                "if you are interested with my project and want to keep in touch you can check out my github repo below I'm always looking to learn new things and collaborate on exciting projects.",
               ].map((text, i) => (
                 <p key={i} style={{ fontFamily:'Outfit,sans-serif', fontWeight:300, fontSize:'1rem', color:'var(--green-mid)', lineHeight:1.8 }}>{text}</p>
               ))}
@@ -98,7 +98,7 @@ export default function About() {
             {[
               { year:'2024 – Present', title:'Student', place:'Company / School Name', desc:'Royal universitfy of Phnom Penh.' },
               { year:'2023 – 2027', title:'Previous Role / Degree', place:'Company / University', desc:'ITE ( Information Technology Engineering)' },
-              { year:'2020 – 2022', title:'Early Experience', place:'Place Name', desc:'I start building my first project with my friend  it called ( quiz game)' },
+              { year:'2025 – 2026', title:'Early Experience', place:'Place Name', desc:'I start building my first project with my friend  it called ( quiz game)' },
             ].map((item, i) => (
               <div key={i} className={`anim-up d${i+2}`} style={{
                 background:'white', borderRadius:16, padding:'1.75rem 2rem',
