@@ -10,7 +10,9 @@ const projects = [
   { title: 'Project One',   desc: 'Quiz game:A full-stack web app  ( Teamwork project)',          
      tags: ['React','Laravel','Mysql','tailwindcss'], link: 'https://github.com/sengson-great/quizz-game-demo'},
   { title: 'Project Two',   desc: 'Car Rental System web app with Stripe payment ( solo project )',
-    tags: ['React','Laravel','PostgreSQL','tailwindcss','Stripe'], link: 'https://github.com/heisernbergg0942/Angkor-Auto-Car-rental ',          
+    tags: ['React','Laravel','PostgreSQL','tailwindcss','Stripe'], 
+    link: 'https://github.com/heisernbergg0942/Angkor-Auto-Car-rental '},
+      { title: 'Project Three',   desc: 'Laravel 13 building ui on blade template ',          
      tags: ['Laravel'], link: 'https://github.com/heisernbergg0942/furnish-laravel-13-project'},
 
 ]
