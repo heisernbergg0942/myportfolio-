@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import TechStack from '../components/TechStack'
 
 // ── EDIT THESE ──────────────────────────────────────────────
-const PROFILE_IMAGE   = '/profilepicture.jpg'        
+const PROFILE_IMAGE   = '/pic2.jpg'        
 const GITHUB_REPO_URL = 'https://github.com/heisernbergg0942'
 // ────────────────────────────────────────────────────────────
 
