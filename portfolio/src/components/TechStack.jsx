@@ -20,7 +20,6 @@ const techs = [
 { name: 'Vite',         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg' },
 { name: 'Postman', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg' },
 { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' },
-{ name: 'Power BI', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/powerbi.svg' },
   { name: 'Linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg' },
 
 ]
